@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Source data -- excluded by default because cattco_sales_joined.csv
+# contains buyer/seller names and addresses. Remove this line if you've
+# decided it's fine for your use case (e.g. a private repo). See README.md.
+data/*.csv
